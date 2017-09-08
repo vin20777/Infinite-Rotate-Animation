@@ -1,4 +1,4 @@
-# infinite-rotate-animation
+# Infinite-rotate-animation
 ## Swift 3 Infinite Rotation Animation Practice
 
 ### Eazy to use in Swift 3
