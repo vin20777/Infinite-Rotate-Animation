@@ -77,6 +77,6 @@ func rotate4(imageView: UIImageView, aCircleTime: Double) { //Transform (Failed 
 
 ## Credits
 
-This demo project is owned and maintained by the [vin20777](vin20777@gmail.com).
+This demo project is owned and maintained by the <a href="mailto:vin20777@gmail.com">vin20777</a>.
 
 Demo Images were originally created by [Doctor KoWJ](https://www.facebook.com/DoctorKoWJ/).
