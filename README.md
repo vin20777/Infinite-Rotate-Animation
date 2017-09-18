@@ -1,7 +1,7 @@
 # Infinite-rotate-animation
 ## Swift 3 Infinite Rotation Animation Practice
 
-### Eazy to use in Swift 3
+### Easy to use in Swift 3
 
 [Universiade Taipei 2017](https://www.2017.taipei/home) is an colossal and fantastic event in Taiwan.
 
