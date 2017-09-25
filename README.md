@@ -3,7 +3,7 @@
 
 ### Easy to use in Swift 3
 
-[Universiade Taipei 2017](https://www.2017.taipei/home) is an colossal and fantastic event in Taiwan.
+<a href="https://www.2017.taipei/home" target="Taiwan">Universiade Taipei 2017</a> is an colossal and fantastic event in Taiwan.
 
 Give some example of different usage in presenting infinite rotatate animation.
 
