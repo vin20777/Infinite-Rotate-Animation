@@ -60,8 +60,9 @@ class ViewController: UIViewController {
         animation.repeatCount = .infinity
         animation.values = [0, Double.pi/2, Double.pi, Double.pi*3/2, Double.pi*2]
         //Percentage of each key frame
-        animation.keyTimes = [NSNumber(value: 0.0), NSNumber(value: 0.1),
-                              NSNumber(value: 0.3), NSNumber(value: 0.8), NSNumber(value: 1.0)]
+        let moments = [NSNumber(value: 0.0), NSNumber(value: 0.1),
+                       NSNumber(value: 0.3), NSNumber(value: 0.8), NSNumber(value: 1.0)]
+        animation.keyTimes = moments
         
         imageView.layer.add(animation, forKey: "rotate")
     }
