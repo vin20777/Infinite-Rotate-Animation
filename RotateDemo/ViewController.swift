@@ -18,15 +18,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.rotate1(imageView: self.basketBallImageView, aCircleTime: 7.0)
-        self.rotate2(imageView: self.judoImageView, aCircleTime: 5.0)
-        self.rotate3(imageView: self.footballImageView, aCircleTime: 3.0)
-        self.rotate4(imageView: self.volleyballImageView, aCircleTime: 1.0)
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        rotate1(imageView: basketBallImageView, aCircleTime: 7.0)
+        rotate2(imageView: judoImageView, aCircleTime: 5.0)
+        rotate3(imageView: footballImageView, aCircleTime: 3.0)
+        rotate4(imageView: volleyballImageView, aCircleTime: 1.0)
     }
     
     func rotate1(imageView: UIImageView, aCircleTime: Double) { //CABasicAnimation
@@ -56,7 +51,7 @@ class ViewController: UIViewController {
         
         let animation = CAKeyframeAnimation(keyPath: "transform.rotation.z")
         animation.duration = aCircleTime
-        animation.fillMode = kCAFillModeForwards
+        animation.fillMode = CAMediaTimingFillMode.forwards
         animation.repeatCount = .infinity
         animation.values = [0, Double.pi/2, Double.pi, Double.pi*3/2, Double.pi*2]
         //Percentage of each key frame
@@ -75,6 +70,5 @@ class ViewController: UIViewController {
         imageView.transform = imageView.transform.rotated(by: CGFloat(Double.pi))
         UIView.commitAnimations()
     }
-    
 }
 
