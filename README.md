@@ -1,7 +1,7 @@
 # Infinite-rotate-animation
 ## Swift Infinite Rotation Animation Practice
 
-### Easy to use in Swift 4
+### Easy to use in Swift 5
 
 <a href="https://www.2017.taipei/home" target="Taiwan">Universiade Taipei 2017</a> is an colossal and fantastic event in Taiwan.
 
@@ -15,7 +15,7 @@ Feel free to pick one & use it!
 
 #### CABasicAnimation Infinity Style
 
-```Swift 4
+```Swift 5
 func rotate1(imageView: UIImageView, aCircleTime: Double) { //CABasicAnimation
         
         let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation")
@@ -29,7 +29,7 @@ func rotate1(imageView: UIImageView, aCircleTime: Double) { //CABasicAnimation
 
 #### UIView Closure Style
 
-```Swift 4
+```Swift 5
 func rotate2(imageView: UIImageView, aCircleTime: Double) { //UIView
         
         UIView.animate(withDuration: aCircleTime/2, delay: 0.0, options: .curveLinear, animations: {
@@ -46,7 +46,7 @@ func rotate2(imageView: UIImageView, aCircleTime: Double) { //UIView
 
 #### Practice For Different Key Moment Customize
 
-```Swift 4
+```Swift 5
 func rotate3(imageView: UIImageView, aCircleTime: Double) { //CAKeyframeAnimation
         
         let animation = CAKeyframeAnimation(keyPath: "transform.rotation.z")
@@ -64,7 +64,7 @@ func rotate3(imageView: UIImageView, aCircleTime: Double) { //CAKeyframeAnimatio
 
 #### Single Circle Usage (No Infinity)
 
-```Swift 4
+```Swift 5
 func rotate4(imageView: UIImageView, aCircleTime: Double) { //Transform (Failed to be infinite)
         
         UIView.beginAnimations(nil, context: nil)
